@@ -677,9 +677,10 @@
 <h2 id="installer">Installer</h2>
 <ol>
 <li><strong>Achetez la licence</strong> adaptée sur <a href="https://nelfetech.com/salles.html">nelfetech.com/salles</a> — la licence se compte <strong>par borne équipée</strong>, hub inclus.</li>
-<li><strong>Installez le hub</strong> : un exécutable unique sur une machine du réseau local de la salle.</li>
-<li><strong>Activez la clé</strong> dans la console d'administration (première saisie = activation ; fonctionne ensuite 14 jours sans internet).</li>
-<li><strong>Enrôlez vos bornes</strong> : chaque borne RetroBat+APIExpose s'ajoute par son adresse locale depuis la console.</li>
+<li><strong>Installez le hub</strong> sur une machine du réseau local de la salle (le PC du comptoir convient très bien) : dézippez la release — comme APIExpose, tout tient dans <strong>un seul exécutable à la racine</strong>, <code>RetroBat.Hub.exe</code>, avec son dossier <code>wwwroot</code> à côté.</li>
+<li><strong>Double-cliquez <code>RetroBat.Hub.exe</code></strong>, puis ouvrez <strong>http://localhost:12400</strong> dans un navigateur : c'est la console de la salle (Ma salle, Joueurs, tournois, leaderboard, Paramètres). Toute la configuration et l'état de la salle vivent à côté de l'exe (<code>appsettings.json</code>, dossier <code>state\</code> — sauvegardez ce dossier, il contient vos scores, votre licence et vos clés). L'installeur Windows optionnel ajoute le démarrage automatique avec la session.</li>
+<li><strong>Activez la clé</strong> dans Paramètres (première saisie = activation ; fonctionne ensuite 14 jours sans internet).</li>
+<li><strong>Enrôlez vos bornes</strong> : bouton « 🔍 Rechercher des bornes » dans Paramètres (le hub scanne le réseau local), ou saisie de l'adresse <code>http://IP-de-la-borne:12345</code>. Redémarrez le hub pour les connecter.</li>
 </ol>
 <h2 id="identification-des-joueurs">Identification des joueurs</h2>
 <ul>

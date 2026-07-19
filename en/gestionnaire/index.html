@@ -677,9 +677,10 @@
 <h2 id="install">Install</h2>
 <ol>
 <li><strong>Buy the license</strong> that fits on <a href="https://nelfetech.com/salles.html">nelfetech.com/salles</a> — licensing is counted <strong>per equipped cabinet</strong>, hub included.</li>
-<li><strong>Install the hub</strong>: a single executable on one machine of the venue's local network.</li>
-<li><strong>Activate the key</strong> in the admin console (first entry = activation; then works 14 days without internet).</li>
-<li><strong>Enroll your cabinets</strong>: each RetroBat+APIExpose cabinet is added by its local address from the console.</li>
+<li><strong>Install the hub</strong> on one machine of the venue's local network (the front-desk PC is fine): unzip the release — like APIExpose, everything ships as <strong>a single executable at the root</strong>, <code>RetroBat.Hub.exe</code>, with its <code>wwwroot</code> folder next to it.</li>
+<li><strong>Double-click <code>RetroBat.Hub.exe</code></strong>, then open <strong>http://localhost:12400</strong> in a browser: that's the venue console (My venue, Players, tournaments, leaderboard, Settings). All configuration and venue state live next to the exe (<code>appsettings.json</code>, the <code>state\</code> folder — back that folder up, it holds your scores, license and keys). The optional Windows installer adds auto-start with the session.</li>
+<li><strong>Activate the key</strong> in Settings (first entry = activation; then works 14 days without internet).</li>
+<li><strong>Enroll your cabinets</strong>: use the "🔍 Discover cabinets" button in Settings (the hub scans the local network), or type the cabinet address <code>http://cabinet-IP:12345</code>. Restart the hub to connect them.</li>
 </ol>
 <h2 id="player-identification">Player identification</h2>
 <ul>
