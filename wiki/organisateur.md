@@ -1,32 +1,49 @@
 # Organisateur de tournois
 
-Depuis la console du hub (rôle animateur ou admin), deux formats de tournoi — et une règle d'or : tout tester **avant** l'événement.
+Depuis la console du hub, deux onglets font tout : **Organiser un tournoi** (préparer le challenge) et **Tournoi en cours** (l'ouvrir, le lancer, le suivre). Une règle d'or : tout tester **avant** l'événement.
+
+## Le déroulé d'un challenge, en 60 secondes
+
+1. **Organiser** : borne de référence → **système → jeu** (les versions RetroAchievements sont marquées 🏆 et priorisées ; les 5 derniers jeux se relancent en un clic). Les **signaux du jeu se vérifient automatiquement** à la sélection.
+2. Écrivez l'**objectif en toutes lettres** (« Le plus de buts en 5 minutes ! ») — c'est lui que les joueurs verront en gros sur les bornes — et choisissez le **type de défi**.
+3. **Ouvrir le challenge** (onglet Tournoi en cours) : chaque borne libre affiche l'**annonce plein écran** — fanart du jeu, objectif, conditions d'accès, compte à rebours, QR géant. Les joueurs scannent pour prendre leur borne. À zéro, **le jeu se lance tout seul**.
+4. Chaque joueur **appuie sur START** : sa partie se fige sur la ligne de départ et son pseudo passe **👍 Ready** dans votre console.
+5. **Lancer le challenge** : décompte **5-4-3-2-1 dans le jeu** sur toutes les bornes, départ simultané à la seconde près.
+6. À la fin : chaque borne affiche le **résultat et le rang du joueur**, le jeu se ferme proprement, le podium est archivé — et visible d'un clic dans l'historique.
+
+## Les quatre types de défis
+
+| Type | Objectif | Classement |
+|---|---|---|
+| ⏱ **Chrono** | Le plus haut score dans le temps imparti | Score |
+| 🏁 **Course** | Le premier à N × un signal (« 15 anneaux ») | Temps le plus court |
+| ⚡ **Contre-la-montre** | Le premier à UN signal (niveau terminé, boss vaincu) | Temps le plus court |
+| 💀 **Survie** | Le signal choisi = fin de partie (game over) | Temps le plus **long** |
+
+Tout est mesuré **dans la mémoire du jeu** (signaux `.MEM`) — pas de pointage manuel, pas de triche possible.
+
+## Conditions d'accès et équité
+
+- **Réservez un challenge aux habitués** : « 5+ scores en salle », « 2+ participations » — vérifié au scan du QR, refus expliqué au joueur, conditions **annoncées sous l'objectif** sur les bornes.
+- **Équité automatique** : un challenge joué à moins de **2 participants réels** (START appuyé) n'est **jamais comptabilisé** — ni records, ni trophées. Vos coupes gardent leur valeur.
 
 ## ✅ Tester avant l'événement (indispensable)
 
-Un jeu n'est exploitable que si sa définition expose les **signaux indispensables** : score live ou records — sans eux, aucun score ne remontera. Ne l'apprenez pas devant le public :
-
-1. **Vérifiez les signaux** : bouton « Vérifier les signaux » dans la console. Le verdict liste score live / records / timer.
-2. **Manche de test** : cochez « Manche de test » à la création — workflow complet (armement, chrono, scores, podium) mais **rien n'est enregistré ni publié**.
-3. **Rejouez le geste des joueurs** : identification, lancement du jeu, sortie — le parcours exact du jour J.
-
-## Sprint (manche armée)
-
-1. **Créez la manche** : jeu, durée, bornes.
-2. Les joueurs **lancent le jeu sur leur borne** — la manche s'arme toute seule quand toutes les bornes réservées sont prêtes ; une borne sur le mauvais jeu est signalée, jamais forcée.
-3. Chrono, scores en direct sur l'écran tournoi, **classement automatique** à l'expiration (les joueurs badgés apparaissent avec leur pseudo), manche archivée.
+1. **Les signaux se vérifient seuls** à la sélection du jeu (score live / records / nombre de signaux exploitables). Sans signaux : pas de « score live », seul « records » reste possible.
+2. **Manche de test** : cochez « Test » à la création — workflow complet (annonce, START, décompte, chrono, podium) mais **rien n'est enregistré ni publié**.
+3. **Rejouez le geste des joueurs** : scan du QR, START, départ — le parcours exact du jour J.
 
 ## Session libre (passages enchaînés)
 
-Pour un créneau de 1 à 4 heures sur N bornes réservées :
+Pour un créneau de 1 à 4 heures sur N bornes réservées : choisissez une durée d'1 h ou plus — les joueurs **se relaient** (le badge du moment fait foi, chaque marque compte pour son joueur), le **classement par joueur** s'alimente en direct, et le podium **reste affiché** tant que vous ne routez pas l'écran ailleurs.
 
-1. Créez la manche en mode **Session libre** — elle démarre immédiatement.
-2. Les joueurs **se relaient** : chacun se badge sur une borne, joue, laisse la place. Le badge du moment fait foi : chaque marque compte pour son joueur.
-3. Le **classement par joueur** s'alimente en direct sur l'écran tournoi pendant toute la fenêtre.
-4. À la fin, le podium **reste affiché** tant que vous ne routez pas l'écran ailleurs.
+## Éliminatoires (brackets)
 
-## Écrans et événement ponctuel
+Dans Organiser : cochez les joueurs (invités sans badge acceptés), le **tableau se construit seul** (exemptions automatiques). Faites jouer chaque match — un challenge par match si vous voulez — puis **cliquez sur le vainqueur** : il avance jusqu'à la finale et le champion est couronné.
 
-- Chaque écran de la salle se pilote depuis la console ([guide gestionnaire](gestionnaire.md)).
+## Écrans, téléphone et événement ponctuel
+
+- Chaque écran de la salle se pilote depuis la console ([guide gestionnaire](gestionnaire.md)) ; le **leaderboard plein écran** affiche le logo du jeu et les scores en direct.
+- Les joueurs suivent le challenge **sur leur téléphone** : objectif, décompte, temps restant, top 10 final — et les notifications les font revenir (« ton record vient d'être battu »).
 - Pour un week-end de tournoi dans une salle non licenciée à l'année, l'**Event pass** (30 jours, toutes bornes) est fait pour ça — [nelfetech.com/salles](https://nelfetech.com/salles.html).
 - En stream, l'édition Studio de Retro Creator ajoute Live Contest, scoreboard et podium d'animation ([guide streamer](streamer.md)).
