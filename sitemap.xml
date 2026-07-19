@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://nelfe80.github.io/NelfeTech-Guides/</loc>
+        <lastmod>2026-07-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://nelfe80.github.io/NelfeTech-Guides/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nelfe80.github.io/NelfeTech-Guides/en/"/>
+    </url>
+    <url>
+        <loc>https://nelfe80.github.io/NelfeTech-Guides/assembleur/</loc>
+        <lastmod>2026-07-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://nelfe80.github.io/NelfeTech-Guides/assembleur/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nelfe80.github.io/NelfeTech-Guides/en/assembleur/"/>
+    </url>
+    <url>
+        <loc>https://nelfe80.github.io/NelfeTech-Guides/gestionnaire/</loc>
+        <lastmod>2026-07-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://nelfe80.github.io/NelfeTech-Guides/gestionnaire/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nelfe80.github.io/NelfeTech-Guides/en/gestionnaire/"/>
+    </url>
+    <url>
+        <loc>https://nelfe80.github.io/NelfeTech-Guides/joueur-en-ligne/</loc>
+        <lastmod>2026-07-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://nelfe80.github.io/NelfeTech-Guides/joueur-en-ligne/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nelfe80.github.io/NelfeTech-Guides/en/joueur-en-ligne/"/>
+    </url>
+    <url>
+        <loc>https://nelfe80.github.io/NelfeTech-Guides/joueur-salle/</loc>
+        <lastmod>2026-07-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://nelfe80.github.io/NelfeTech-Guides/joueur-salle/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nelfe80.github.io/NelfeTech-Guides/en/joueur-salle/"/>
+    </url>
+    <url>
+        <loc>https://nelfe80.github.io/NelfeTech-Guides/organisateur/</loc>
+        <lastmod>2026-07-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://nelfe80.github.io/NelfeTech-Guides/organisateur/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nelfe80.github.io/NelfeTech-Guides/en/organisateur/"/>
+    </url>
+    <url>
+        <loc>https://nelfe80.github.io/NelfeTech-Guides/streamer/</loc>
+        <lastmod>2026-07-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://nelfe80.github.io/NelfeTech-Guides/streamer/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nelfe80.github.io/NelfeTech-Guides/en/streamer/"/>
+    </url>
+    <url>
+        <loc>https://nelfe80.github.io/NelfeTech-Guides/en/</loc>
+        <lastmod>2026-07-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nelfe80.github.io/NelfeTech-Guides/en/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://nelfe80.github.io/NelfeTech-Guides/"/>
+    </url>
+    <url>
+        <loc>https://nelfe80.github.io/NelfeTech-Guides/en/assembleur/</loc>
+        <lastmod>2026-07-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nelfe80.github.io/NelfeTech-Guides/en/assembleur/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://nelfe80.github.io/NelfeTech-Guides/assembleur/"/>
+    </url>
+    <url>
+        <loc>https://nelfe80.github.io/NelfeTech-Guides/en/gestionnaire/</loc>
+        <lastmod>2026-07-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nelfe80.github.io/NelfeTech-Guides/en/gestionnaire/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://nelfe80.github.io/NelfeTech-Guides/gestionnaire/"/>
+    </url>
+    <url>
+        <loc>https://nelfe80.github.io/NelfeTech-Guides/en/joueur-en-ligne/</loc>
+        <lastmod>2026-07-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nelfe80.github.io/NelfeTech-Guides/en/joueur-en-ligne/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://nelfe80.github.io/NelfeTech-Guides/joueur-en-ligne/"/>
+    </url>
+    <url>
+        <loc>https://nelfe80.github.io/NelfeTech-Guides/en/joueur-salle/</loc>
+        <lastmod>2026-07-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nelfe80.github.io/NelfeTech-Guides/en/joueur-salle/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://nelfe80.github.io/NelfeTech-Guides/joueur-salle/"/>
+    </url>
+    <url>
+        <loc>https://nelfe80.github.io/NelfeTech-Guides/en/organisateur/</loc>
+        <lastmod>2026-07-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nelfe80.github.io/NelfeTech-Guides/en/organisateur/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://nelfe80.github.io/NelfeTech-Guides/organisateur/"/>
+    </url>
+    <url>
+        <loc>https://nelfe80.github.io/NelfeTech-Guides/en/streamer/</loc>
+        <lastmod>2026-07-19</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://nelfe80.github.io/NelfeTech-Guides/en/streamer/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://nelfe80.github.io/NelfeTech-Guides/streamer/"/>
+    </url>
+</urlset>
