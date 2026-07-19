@@ -23,6 +23,8 @@ Sur chaque affichage physique, ouvrez `screen.html?name=ecran-bar` (un nom par �
 
 Votre salle peut rejoindre les classements publics : le hub signe chaque lot de scores (clé propre à la salle) et les pousse quand internet est là — jamais l'inverse : le jeu ne dépend de rien. L'enrôlement se fait avec la clé publique du hub (visible dans la console) ; les joueurs badgés retrouvent alors leurs marques « salle vérifiée » sur leur compte en ligne.
 
+**Renseignez la fiche de votre salle** (ville, région, pays, enseigne) à l'enrôlement : c'est ce qui place vos joueurs dans les classements à chaque échelle — champions de la salle, de la ville, de l'enseigne, de la région, du pays et du monde.
+
 ## Tournois
 
 Voir le [guide organisateur](organisateur.md) — et avant tout événement, la règle d'or : **vérifier les signaux du jeu, puis manche de test**.

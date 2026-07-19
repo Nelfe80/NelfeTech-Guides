@@ -23,6 +23,8 @@ On each physical display, open `screen.html?name=bar-screen` (one name per displ
 
 Your venue can join the public rankings: the hub signs every score batch (venue-specific key) and pushes them whenever internet is available — never the other way round: gameplay depends on nothing. Enrollment uses the hub's public key (visible in the console); badged players then find their "verified venue" marks on their online account.
 
+**Fill in your venue's profile** (city, region, country, chain) at enrollment: it is what places your players in the rankings at every scale — champions of the venue, the city, the chain, the region, the country and the world.
+
 ## Tournaments
 
 See the [organizer guide](organisateur.md) — and before any event, the golden rule: **check the game's signals, then test round**.
