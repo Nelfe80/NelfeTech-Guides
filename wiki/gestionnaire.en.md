@@ -5,9 +5,10 @@ The Fleet Hub supervises your RetroBat cabinets, identifies players, drives tour
 ## Install
 
 1. **Buy the license** that fits on [nelfetech.com/salles](https://nelfetech.com/salles.html) — licensing is counted **per equipped cabinet**, hub included.
-2. **Install the hub**: a single executable on one machine of the venue's local network.
-3. **Activate the key** in the admin console (first entry = activation; then works 14 days without internet).
-4. **Enroll your cabinets**: each RetroBat+APIExpose cabinet is added by its local address from the console.
+2. **Install the hub** on one machine of the venue's local network (the front-desk PC is fine): unzip the release — like APIExpose, everything ships as **a single executable at the root**, `RetroBat.Hub.exe`, with its `wwwroot` folder next to it.
+3. **Double-click `RetroBat.Hub.exe`**, then open **http://localhost:12400** in a browser: that's the venue console (My venue, Players, tournaments, leaderboard, Settings). All configuration and venue state live next to the exe (`appsettings.json`, the `state\` folder — back that folder up, it holds your scores, license and keys). The optional Windows installer adds auto-start with the session.
+4. **Activate the key** in Settings (first entry = activation; then works 14 days without internet).
+5. **Enroll your cabinets**: use the "🔍 Discover cabinets" button in Settings (the hub scans the local network), or type the cabinet address `http://cabinet-IP:12345`. Restart the hub to connect them.
 
 ## Player identification
 

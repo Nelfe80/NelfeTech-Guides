@@ -5,9 +5,10 @@ Le Fleet Hub supervise vos bornes RetroBat, identifie les joueurs, anime tournoi
 ## Installer
 
 1. **Achetez la licence** adaptée sur [nelfetech.com/salles](https://nelfetech.com/salles.html) — la licence se compte **par borne équipée**, hub inclus.
-2. **Installez le hub** : un exécutable unique sur une machine du réseau local de la salle.
-3. **Activez la clé** dans la console d'administration (première saisie = activation ; fonctionne ensuite 14 jours sans internet).
-4. **Enrôlez vos bornes** : chaque borne RetroBat+APIExpose s'ajoute par son adresse locale depuis la console.
+2. **Installez le hub** sur une machine du réseau local de la salle (le PC du comptoir convient très bien) : dézippez la release — comme APIExpose, tout tient dans **un seul exécutable à la racine**, `RetroBat.Hub.exe`, avec son dossier `wwwroot` à côté.
+3. **Double-cliquez `RetroBat.Hub.exe`**, puis ouvrez **http://localhost:12400** dans un navigateur : c'est la console de la salle (Ma salle, Joueurs, tournois, leaderboard, Paramètres). Toute la configuration et l'état de la salle vivent à côté de l'exe (`appsettings.json`, dossier `state\` — sauvegardez ce dossier, il contient vos scores, votre licence et vos clés). L'installeur Windows optionnel ajoute le démarrage automatique avec la session.
+4. **Activez la clé** dans Paramètres (première saisie = activation ; fonctionne ensuite 14 jours sans internet).
+5. **Enrôlez vos bornes** : bouton « 🔍 Rechercher des bornes » dans Paramètres (le hub scanne le réseau local), ou saisie de l'adresse `http://IP-de-la-borne:12345`. Redémarrez le hub pour les connecter.
 
 ## Identification des joueurs
 
