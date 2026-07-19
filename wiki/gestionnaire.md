@@ -19,6 +19,9 @@ Le Fleet Hub supervise vos bornes RetroBat, identifie les joueurs, anime tournoi
 
 Sur chaque affichage physique, ouvrez `screen.html?name=ecran-bar` (un nom par écran). Depuis la console, vous choisissez ce que **chaque** écran montre : leaderboard, écran tournoi, mosaïque de flotte… Un écran **garde son contenu** — podium compris — tant que vous ne le changez pas.
 
+!!! tip "Annoncer un joueur"
+    Routez un écran vers la **carte publique** d'un joueur (`…/retrocreator/card/SonPseudo`) : avatar, palmarès et top 3 s'affichent en grand — parfait pour présenter un champion ou inviter un joueur à rejoindre une borne.
+
 ## Classements en ligne (optionnel)
 
 Votre salle peut rejoindre les classements publics : le hub signe chaque lot de scores (clé propre à la salle) et les pousse quand internet est là — jamais l'inverse : le jeu ne dépend de rien. L'enrôlement se fait avec la clé publique du hub (visible dans la console) ; les joueurs badgés retrouvent alors leurs marques « salle vérifiée » sur leur compte en ligne.

@@ -19,6 +19,9 @@ The Fleet Hub supervises your RetroBat cabinets, identifies players, drives tour
 
 On each physical display, open `screen.html?name=bar-screen` (one name per display). From the console you choose what **every** screen shows: leaderboard, tournament screen, fleet mosaic… A screen **keeps its content** — podium included — until you change it.
 
+!!! tip "Announcing a player"
+    Route a screen to a player's **public card** (`…/retrocreator/card/TheirPseudo`): avatar, honors and top 3 show up big — perfect to present a champion or invite a player to a cabinet.
+
 ## Online rankings (optional)
 
 Your venue can join the public rankings: the hub signs every score batch (venue-specific key) and pushes them whenever internet is available — never the other way round: gameplay depends on nothing. Enrollment uses the hub's public key (visible in the console); badged players then find their "verified venue" marks on their online account.
