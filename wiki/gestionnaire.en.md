@@ -10,6 +10,8 @@ The Fleet Hub supervises your RetroBat cabinets, identifies players, drives tour
 4. **Activate the key** in Settings (first entry = activation; then works 14 days without internet).
 5. **Enroll your cabinets**: use the "🔍 Discover cabinets" button in Settings (the hub scans the local network), or type the cabinet address `http://cabinet-IP:12345`. Restart the hub to connect them.
 
+In **My venue**, the ✏️ pencil next to a cabinet's name **renames** it ("Bar bartop", "Cockpit"…) — the name is immediate and kept. The **Quit the game** button cleanly closes the running game, whether it runs under RetroArch **or** a standalone emulator (MAME, PCSX2…).
+
 ## Player identification
 
 - **Cabinet QR**: enable `CabinetBadgeOverlay` in the cabinet's APIExpose configuration — the check-in QR and cabinet number appear at the bottom-right of the screen, and disappear while a player is checked in. A printable **sticker sheet** exists too.
@@ -28,6 +30,16 @@ On each physical display, open `screen.html?name=bar-screen` (one name per displ
 Your venue can join the public rankings: the hub signs every score batch (venue-specific key) and pushes them whenever internet is available — never the other way round: gameplay depends on nothing. Enrollment uses the hub's public key (visible in the console); badged players then find their "verified venue" marks on their online account.
 
 **Fill in your venue's profile** (city, region, country, chain) at enrollment: it is what places your players in the rankings at every scale — champions of the venue, the city, the chain, the region, the country and the world.
+
+## Roles and moderation
+
+On the online platform, a venue can delegate scoped **roles** to NelfeTech accounts:
+
+- **owner** — all rights on the venue;
+- **moderator** — can **hide an inappropriate nickname** on public rankings (it then shows `##;-)##`);
+- **organizer** — **announces events** to players who follow the venue (never a command to the cabinets).
+
+The matching tools appear in the **Config** tab of that account. (Roles are assigned platform-side.)
 
 ## Tournaments
 

@@ -10,6 +10,8 @@ Le Fleet Hub supervise vos bornes RetroBat, identifie les joueurs, anime tournoi
 4. **Activez la clé** dans Paramètres (première saisie = activation ; fonctionne ensuite 14 jours sans internet).
 5. **Enrôlez vos bornes** : bouton « 🔍 Rechercher des bornes » dans Paramètres (le hub scanne le réseau local), ou saisie de l'adresse `http://IP-de-la-borne:12345`. Redémarrez le hub pour les connecter.
 
+Dans **Ma salle**, le crayon ✏️ à côté du nom d'une borne la **renomme** (« Bartop bar », « Cockpit »…) — le nom est immédiat et conservé. Le bouton **Quitter le jeu** ferme proprement le jeu en cours, qu'il tourne sous RetroArch **ou** un émulateur autonome (MAME, PCSX2…).
+
 ## Identification des joueurs
 
 - **QR de borne** : activez `CabinetBadgeOverlay` dans la configuration APIExpose de la borne — le QR d'identification et le numéro s'affichent en bas à droite de l'écran, et disparaissent pendant qu'un joueur est connecté. Une planche de **stickers** imprimables existe aussi.
@@ -28,6 +30,16 @@ Sur chaque affichage physique, ouvrez `screen.html?name=ecran-bar` (un nom par �
 Votre salle peut rejoindre les classements publics : le hub signe chaque lot de scores (clé propre à la salle) et les pousse quand internet est là — jamais l'inverse : le jeu ne dépend de rien. L'enrôlement se fait avec la clé publique du hub (visible dans la console) ; les joueurs badgés retrouvent alors leurs marques « salle vérifiée » sur leur compte en ligne.
 
 **Renseignez la fiche de votre salle** (ville, région, pays, enseigne) à l'enrôlement : c'est ce qui place vos joueurs dans les classements à chaque échelle — champions de la salle, de la ville, de l'enseigne, de la région, du pays et du monde.
+
+## Rôles et modération
+
+Sur la plateforme en ligne, une salle peut déléguer des **rôles** cloisonnés à des comptes NelfeTech :
+
+- **propriétaire** — tous les droits sur la salle ;
+- **modérateur** — peut **masquer un pseudo** inapproprié sur les classements publics (il s'affiche alors `##;-)##`) ;
+- **organisateur** — **annonce des événements** aux joueurs qui suivent la salle (jamais de commande vers les bornes).
+
+Les outils correspondants apparaissent dans l'onglet **Config** du compte concerné. (Attribution des rôles côté plateforme.)
 
 ## Tournois
 
