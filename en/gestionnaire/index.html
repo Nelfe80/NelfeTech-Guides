@@ -491,10 +491,43 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#my-screen-feed-screens-video-control-room-and-stream" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        My screen feed — screens, video control room and stream
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sponsoring" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sponsoring
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#online-rankings-optional" class="md-nav__link">
     <span class="md-ellipsis">
       
         Online rankings (optional)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#roles-and-moderation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Roles and moderation
       
     </span>
   </a>
@@ -634,10 +667,43 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#my-screen-feed-screens-video-control-room-and-stream" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        My screen feed — screens, video control room and stream
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sponsoring" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sponsoring
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#online-rankings-optional" class="md-nav__link">
     <span class="md-ellipsis">
       
         Online rankings (optional)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#roles-and-moderation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Roles and moderation
       
     </span>
   </a>
@@ -682,6 +748,7 @@
 <li><strong>Activate the key</strong> in Settings (first entry = activation; then works 14 days without internet).</li>
 <li><strong>Enroll your cabinets</strong>: use the "🔍 Discover cabinets" button in Settings (the hub scans the local network), or type the cabinet address <code>http://cabinet-IP:12345</code>. Restart the hub to connect them.</li>
 </ol>
+<p>In <strong>My venue</strong>, the ✏️ pencil next to a cabinet's name <strong>renames</strong> it ("Bar bartop", "Cockpit"…) — the name is immediate and kept. The <strong>Quit the game</strong> button cleanly closes the running game, whether it runs under RetroArch <strong>or</strong> a standalone emulator (MAME, PCSX2…).</p>
 <h2 id="player-identification">Player identification</h2>
 <ul>
 <li><strong>Cabinet QR</strong>: enable <code>CabinetBadgeOverlay</code> in the cabinet's APIExpose configuration — the check-in QR and cabinet number appear at the bottom-right of the screen, and disappear while a player is checked in. A printable <strong>sticker sheet</strong> exists too.</li>
@@ -694,9 +761,25 @@
 <p class="admonition-title">Announcing a player</p>
 <p>Route a screen to a player's <strong>public card</strong> (<code>…/retrocreator/card/TheirPseudo</code>): avatar, honors and top 3 show up big — perfect to present a champion or invite a player to a cabinet.</p>
 </div>
+<h2 id="my-screen-feed-screens-video-control-room-and-stream">My screen feed — screens, video control room and stream</h2>
+<p>The <strong>My screen feed</strong> tab of the console drives all the venue's displays and live output.</p>
+<p><strong>Pairing a screen.</strong> On a smart TV or mini-PC, open <code>http://&lt;hub&gt;:12400/screen.html</code>: the screen shows a <strong>6-digit code</strong>. Type it in the tab, name the screen ("entrance TV") — it is remembered, even after the TV reboots. The display plugged into the hub PC itself shows up in one click ("Show here"), no code needed.</p>
+<p><strong>Picking the content.</strong> Per screen: a fixed view or a rotation — <strong>Live leaderboard</strong> (rows glide when a player overtakes another, scores roll like a counter), <strong>Records wall</strong>, <strong>Events</strong>, <strong>Live games</strong>. For the leaderboard, choose: venue continuous, current challenge, or automatic. <strong>Manual control</strong> forces one view on every screen at once (big moment), then "Resume the schedule".</p>
+<p><strong>Live games on the screens.</strong> The video control room puts cabinet gameplay on your screens in under a second (picked cabinet, rotation, or automatic switch during tournaments). A <strong>free</strong> cabinet is broadcastable by default; an <strong>occupied</strong> one only goes on screen if the player <strong>allowed it in their app</strong> — their rule, not yours.</p>
+<p><strong>The venue stream.</strong> Paste the venue's Twitch stream key (stored encrypted), press "Start the control room": the venue mix (games, leaderboards, branding) goes live on your channel. <strong>Branding</strong> is automatic and set with three checkboxes: bottom band with the venue name, venue logo (uploaded in Settings, next to the address), per-cabinet lower-third (player, game and its logo, running event).</p>
+<h2 id="sponsoring">Sponsoring</h2>
+<p>Drop your ad images and videos in the <code>sponsors</code> folder (next to the hub), or add a YouTube link / Twitch channel. Each campaign is set in <strong>My screen feed</strong>: enabled, start/end dates, frequency, duration. When a campaign is due, <strong>every screen plays it at the same time</strong>, fading over its content — sellable visibility for your partners.</p>
 <h2 id="online-rankings-optional">Online rankings (optional)</h2>
 <p>Your venue can join the public rankings: the hub signs every score batch (venue-specific key) and pushes them whenever internet is available — never the other way round: gameplay depends on nothing. Enrollment uses the hub's public key (visible in the console); badged players then find their "verified venue" marks on their online account.</p>
 <p><strong>Fill in your venue's profile</strong> (city, region, country, chain) at enrollment: it is what places your players in the rankings at every scale — champions of the venue, the city, the chain, the region, the country and the world.</p>
+<h2 id="roles-and-moderation">Roles and moderation</h2>
+<p>On the online platform, a venue can delegate scoped <strong>roles</strong> to NelfeTech accounts:</p>
+<ul>
+<li><strong>owner</strong> — all rights on the venue;</li>
+<li><strong>moderator</strong> — can <strong>hide an inappropriate nickname</strong> on public rankings (it then shows <code>##;-)##</code>);</li>
+<li><strong>organizer</strong> — <strong>announces events</strong> to players who follow the venue (never a command to the cabinets).</li>
+</ul>
+<p>The matching tools appear in the <strong>Config</strong> tab of that account. (Roles are assigned platform-side.)</p>
 <h2 id="tournaments">Tournaments</h2>
 <p>See the <a href="../organisateur/">organizer guide</a> — and before any event, the golden rule: <strong>check the game's signals, then test round</strong>.</p>
 
