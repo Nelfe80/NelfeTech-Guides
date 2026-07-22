@@ -25,6 +25,22 @@ Sur chaque affichage physique, ouvrez `screen.html?name=ecran-bar` (un nom par �
 !!! tip "Annoncer un joueur"
     Routez un écran vers la **carte publique** d'un joueur (`…/retrocreator/card/SonPseudo`) : avatar, palmarès et top 3 s'affichent en grand — parfait pour présenter un champion ou inviter un joueur à rejoindre une borne.
 
+## Mon flux screen — écrans, régie vidéo et stream
+
+L'onglet **Mon flux screen** de la console pilote tout l'affichage et le direct de la salle.
+
+**Appairer un écran.** Sur une smart TV ou un mini-PC, ouvrez `http://<hub>:12400/screen.html` : l'écran affiche un **code à 6 chiffres**. Saisissez-le dans l'onglet, nommez l'écran (« TV entrée ») — c'est mémorisé, même après un redémarrage de la TV. L'écran branché directement sur le PC du hub s'affiche en un clic (« Afficher ici »), sans code.
+
+**Choisir le contenu.** Par écran : une vue fixe ou la rotation des vues — **Leaderboard live** (les rangs glissent quand un joueur en double un autre, les scores tournent comme un compteur), **Mur des records**, **Événements**, **Parties en cours**. Pour le leaderboard, choisissez : salle en continu, challenge en cours, ou automatique. La **régie manuelle** force une vue sur tous les écrans d'un coup (moment fort), puis « Reprendre le programme ».
+
+**Les parties en direct sur les écrans.** La régie vidéo diffuse le jeu des bornes sur vos écrans en moins d'une seconde (borne choisie, rotation, ou bascule automatique en tournoi). Une borne **libre** est diffusable par défaut ; une borne **occupée** ne passe à l'écran que si le joueur l'a **autorisé dans son app** — c'est sa règle, pas la vôtre.
+
+**Le stream de la salle.** Collez la clé de stream Twitch de la salle (conservée chiffrée), appuyez sur « Démarrer la régie » : la composition (parties, classements, habillage) part en direct sur votre chaîne. L'**habillage** est automatique et se règle en trois cases : bandeau bas au nom de la salle, logo de la salle (à charger dans Paramètres, à côté de l'adresse), cartouche par borne (joueur, jeu et son logo, événement en cours).
+
+## Sponsoring
+
+Déposez vos images et vidéos de pub dans le dossier `sponsors` (à côté du hub), ou ajoutez un lien YouTube / une chaîne Twitch. Chaque campagne se règle dans **Mon flux screen** : activée, dates de début/fin, fréquence de passage, durée. Quand une campagne est due, **tous les écrans la passent en même temps**, en fondu par-dessus leur contenu — de la visibilité vendable à vos partenaires.
+
 ## Classements en ligne (optionnel)
 
 Votre salle peut rejoindre les classements publics : le hub signe chaque lot de scores (clé propre à la salle) et les pousse quand internet est là — jamais l'inverse : le jeu ne dépend de rien. L'enrôlement se fait avec la clé publique du hub (visible dans la console) ; les joueurs badgés retrouvent alors leurs marques « salle vérifiée » sur leur compte en ligne.

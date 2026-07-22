@@ -38,6 +38,16 @@ Votre **carte joueur suit tout en direct** sur votre téléphone : l'objectif, l
 
 Bon à savoir : un challenge joué sans véritable adversaire (moins de 2 joueurs ayant appuyé sur START) n'est **pas comptabilisé** — les trophées se méritent. En **session libre**, les joueurs se relaient sur les bornes réservées — chaque passage badgé compte pour son joueur.
 
+## Diffuser sa partie sur sa chaîne
+
+Enregistrez votre **clé de stream Twitch** dans l'app (page Moi → « Ma chaîne Twitch ») : elle est conservée chiffrée et jamais réaffichée. Pendant une session en salle, l'écran « En jeu » de votre téléphone propose alors :
+
+- **🔴 Diffuser ma partie** — votre écran de jeu part en direct sur votre chaîne, habillé automatiquement (votre pseudo, le jeu, la salle, l'événement en cours) ;
+- **📡 Rediffuser le flux de la salle** — la régie de la salle (parties, classements, ambiance) part sur votre chaîne pendant que vous jouez ;
+- **■ Arrêter ma diffusion** — coupe tout ; la diffusion s'arrête aussi toute seule quand vous quittez la borne.
+
+Et vos parties sur les **écrans de la salle** ? Uniquement si vous l'avez autorisé : la case « Mes parties peuvent passer sur les écrans de la salle » (page Moi) est votre règle — décochée, votre borne n'apparaît jamais sur les écrans ni dans le stream de la salle.
+
 ## Badges et trophées
 
 - À côté de votre pseudo sur les classements : votre **récompense la plus prestigieuse** (👑 couronne mondiale, 🏆 coupe nationale, 🏅 médaille de ville, ⭐ étoile de salle).

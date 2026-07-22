@@ -38,6 +38,16 @@ Your **player card follows everything live** on your phone: the objective, the c
 
 Good to know: a challenge played without a real opponent (fewer than 2 players who pressed START) is **not counted** — trophies are earned. In an **open session**, players take turns on the reserved cabinets — every badged run counts for its player.
 
+## Broadcasting your game on your channel
+
+Save your **Twitch stream key** in the app (Me page → "My Twitch channel"): it is stored encrypted and never shown again. During a venue session, the "Playing" screen on your phone then offers:
+
+- **🔴 Broadcast my game** — your gameplay goes live on your channel, automatically branded (your name, the game, the venue, the running event);
+- **📡 Rebroadcast the venue feed** — the venue mix (games, leaderboards, atmosphere) goes to your channel while you play;
+- **■ Stop my broadcast** — cuts everything; broadcasting also stops by itself when you leave the cabinet.
+
+What about your games on the **venue screens**? Only if you allowed it: the "My games may appear on the venue screens" checkbox (Me page) is your rule — unchecked, your cabinet never shows up on the screens or in the venue stream.
+
 ## Badges and trophies
 
 - Next to your nickname on the boards: your **most prestigious reward** (👑 world crown, 🏆 national cup, 🏅 city medal, ⭐ venue star).

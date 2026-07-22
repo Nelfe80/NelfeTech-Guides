@@ -25,6 +25,22 @@ On each physical display, open `screen.html?name=bar-screen` (one name per displ
 !!! tip "Announcing a player"
     Route a screen to a player's **public card** (`…/retrocreator/card/TheirPseudo`): avatar, honors and top 3 show up big — perfect to present a champion or invite a player to a cabinet.
 
+## My screen feed — screens, video control room and stream
+
+The **My screen feed** tab of the console drives all the venue's displays and live output.
+
+**Pairing a screen.** On a smart TV or mini-PC, open `http://<hub>:12400/screen.html`: the screen shows a **6-digit code**. Type it in the tab, name the screen ("entrance TV") — it is remembered, even after the TV reboots. The display plugged into the hub PC itself shows up in one click ("Show here"), no code needed.
+
+**Picking the content.** Per screen: a fixed view or a rotation — **Live leaderboard** (rows glide when a player overtakes another, scores roll like a counter), **Records wall**, **Events**, **Live games**. For the leaderboard, choose: venue continuous, current challenge, or automatic. **Manual control** forces one view on every screen at once (big moment), then "Resume the schedule".
+
+**Live games on the screens.** The video control room puts cabinet gameplay on your screens in under a second (picked cabinet, rotation, or automatic switch during tournaments). A **free** cabinet is broadcastable by default; an **occupied** one only goes on screen if the player **allowed it in their app** — their rule, not yours.
+
+**The venue stream.** Paste the venue's Twitch stream key (stored encrypted), press "Start the control room": the venue mix (games, leaderboards, branding) goes live on your channel. **Branding** is automatic and set with three checkboxes: bottom band with the venue name, venue logo (uploaded in Settings, next to the address), per-cabinet lower-third (player, game and its logo, running event).
+
+## Sponsoring
+
+Drop your ad images and videos in the `sponsors` folder (next to the hub), or add a YouTube link / Twitch channel. Each campaign is set in **My screen feed**: enabled, start/end dates, frequency, duration. When a campaign is due, **every screen plays it at the same time**, fading over its content — sellable visibility for your partners.
+
 ## Online rankings (optional)
 
 Your venue can join the public rankings: the hub signs every score batch (venue-specific key) and pushes them whenever internet is available — never the other way round: gameplay depends on nothing. Enrollment uses the hub's public key (visible in the console); badged players then find their "verified venue" marks on their online account.
