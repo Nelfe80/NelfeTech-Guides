@@ -17,6 +17,36 @@ Chaque borne affiche un **QR et son numéro** en bas à droite de l'écran (ou s
 2. Entrez votre code joueur.
 3. Un message « Bienvenue ! » s'affiche sur la borne : vos scores comptent pour vous, et le QR de la borne disparaît le temps de votre session.
 
+## Choisir un jeu depuis votre téléphone
+
+Une fois identifié sur une borne et connecté au **wifi de la salle**, votre téléphone devient une manette de choix : parcourez le catalogue de la borne, consultez la fiche d'un jeu et lancez-le à distance — la borne suit.
+
+### Match ton jeu
+
+Touchez **« 💡 Match ton jeu »** : vous parcourez tout le système en cours de la borne, une carte à la fois (jaquette ou vidéo, description, record de la salle). **La borne défile en même temps que vous** — ce que vous voyez sur le téléphone est à l'écran.
+
+![Le mode Match sur le téléphone : la carte du jeu et les actions balayer/lancer](img/joueur-salle-match.png)
+
+- Balayez à **droite** (ou 💡) pour ajouter le jeu à votre liste **« À essayer »** ;
+- Balayez à **gauche** (ou ✕) pour passer au suivant ;
+- **▶** lance le jeu sur la borne.
+
+### La fiche d'un jeu
+
+Touchez n'importe quel jeu de vos listes pour ouvrir sa **fiche** : capture d'écran (ou vidéo), description, **record de la salle sur ce jeu**, et le bouton **▶ Lancer**. La fiche vient de la borne — si le jeu est en japonais, l'app de votre navigateur peut le traduire.
+
+![La fiche d'un jeu : visuel, description, record de la salle, et les boutons Favori / Lancer / À essayer](img/joueur-salle-fiche.png)
+
+Un **rond bleu ⚠** au coin d'un jeu signale « pas de record possible » : le score n'est pas capturable sur ce titre. Vous êtes prévenu **avant** de lancer, pas frustré après.
+
+### Vos trois listes
+
+- **Récents** — les jeux que vous avez joués, déduits de vos parties ;
+- **★ Favoris** — ceux que vous avez étoilés ;
+- **💡 À essayer** — ceux repérés en parcourant (« bonne idée ! »).
+
+Sur une borne, chaque jeu de ces listes se **relance d'un tap** — lancer un jeu ferme celui en cours sur la borne. Le jeu en cours affiche **⏹ Arrêter**.
+
 ## Partir
 
 Le même geste vous déconnecte : re-scannez, ou touchez « Je pars — me déconnecter » sur votre téléphone. Un message « À bientôt ! » confirme — vos scores sont enregistrés et la borne redevient libre.

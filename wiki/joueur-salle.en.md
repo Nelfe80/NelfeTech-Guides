@@ -17,6 +17,36 @@ Every cabinet shows a **QR and its number** at the bottom-right of its screen (o
 2. Enter your player code.
 3. A "Welcome!" message appears on the cabinet: your scores now count for you, and the cabinet's QR disappears for the length of your session.
 
+## Pick a game from your phone
+
+Once checked in on a cabinet and connected to the **venue's wifi**, your phone becomes a game picker: browse the cabinet's catalogue, read a game's sheet and launch it remotely — the cabinet follows.
+
+### Match your game
+
+Tap **"💡 Match your game"**: you browse the cabinet's whole current system, one card at a time (box art or video, description, the venue record). **The cabinet scrolls along with you** — what you see on the phone is on the screen.
+
+![Match mode on the phone: the game card and the swipe/launch actions](img/joueur-salle-match.png)
+
+- Swipe **right** (or 💡) to add the game to your **"To try"** list;
+- Swipe **left** (or ✕) to move to the next one;
+- **▶** launches the game on the cabinet.
+
+### A game's sheet
+
+Tap any game in your lists to open its **sheet**: screenshot (or video), description, **the venue record on that game**, and the **▶ Launch** button. The sheet comes from the cabinet — if the game is in Japanese, your browser app can translate it.
+
+![A game's sheet: artwork, description, venue record, and the Favorite / Launch / To-try buttons](img/joueur-salle-fiche.png)
+
+A **blue ⚠ dot** in a game's corner means "no record possible": the score isn't capturable on that title. You're warned **before** launching, not frustrated after.
+
+### Your three lists
+
+- **Recent** — the games you've played, derived from your sessions;
+- **★ Favorites** — the ones you starred;
+- **💡 To try** — the ones you spotted while browsing ("good idea!").
+
+On a cabinet, every game in these lists **relaunches with one tap** — launching a game closes the one running on the cabinet. The running game shows **⏹ Stop**.
+
 ## Leaving
 
 The same gesture signs you out: re-scan, or tap "I'm leaving — sign out" on your phone. A "See you soon!" message confirms — your scores are saved and the cabinet is free again.
