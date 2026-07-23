@@ -749,12 +749,14 @@
 <li><strong>Enrôlez vos bornes</strong> : bouton « 🔍 Rechercher des bornes » dans Paramètres (le hub scanne le réseau local), ou saisie de l'adresse <code>http://IP-de-la-borne:12345</code>. Redémarrez le hub pour les connecter.</li>
 </ol>
 <p>Dans <strong>Ma salle</strong>, le crayon ✏️ à côté du nom d'une borne la <strong>renomme</strong> (« Bartop bar », « Cockpit »…) — le nom est immédiat et conservé. Le bouton <strong>Quitter le jeu</strong> ferme proprement le jeu en cours, qu'il tourne sous RetroArch <strong>ou</strong> un émulateur autonome (MAME, PCSX2…).</p>
+<p><img alt="La console de la salle (http://localhost:12400) : leaderboard en direct, tournoi en cours, et la navigation complète — Ma salle, Joueurs, Organiser un tournoi, Mon flux screen, Paramètres" src="../img/hub-leaderboard.png" /></p>
 <h2 id="identification-des-joueurs">Identification des joueurs</h2>
 <ul>
 <li><strong>QR de borne</strong> : activez <code>CabinetBadgeOverlay</code> dans la configuration APIExpose de la borne — le QR d'identification et le numéro s'affichent en bas à droite de l'écran, et disparaissent pendant qu'un joueur est connecté. Une planche de <strong>stickers</strong> imprimables existe aussi.</li>
 <li>Le joueur <strong>scanne le QR de la borne avec son téléphone</strong> (ou tape le numéro de la borne) et entre son code joueur. Re-scan = départ.</li>
 <li>Créez les badges au comptoir via la page joueurs — identités anonymes, aucune donnée personnelle.</li>
 </ul>
+<p><img alt="La page Joueurs : compteurs (inscrits, en jeu, comptes liés), invitation par email, et le classement des joueurs de la salle" src="../img/hub-joueurs.png" /></p>
 <h2 id="ecrans-de-la-salle">Écrans de la salle</h2>
 <p>Sur chaque affichage physique, ouvrez <code>screen.html?name=ecran-bar</code> (un nom par écran). Depuis la console, vous choisissez ce que <strong>chaque</strong> écran montre : leaderboard, écran tournoi, mosaïque de flotte… Un écran <strong>garde son contenu</strong> — podium compris — tant que vous ne le changez pas.</p>
 <div class="admonition tip">
