@@ -2,6 +2,8 @@
 
 Depuis la console du hub, deux onglets font tout : **Organiser un tournoi** (préparer le challenge) et **Tournoi en cours** (l'ouvrir, le lancer, le suivre). Une règle d'or : tout tester **avant** l'événement.
 
+![L'onglet Organiser un tournoi : choix de la borne, du système et du jeu (les signaux se vérifient à la sélection), puis le bracket qui se construit en cochant les joueurs](img/hub-organiser.png)
+
 ## Le déroulé d'un challenge, en 60 secondes
 
 1. **Organiser** : borne de référence → **système → jeu** (les versions RetroAchievements sont marquées 🏆 et priorisées ; les 5 derniers jeux se relancent en un clic). Les **signaux du jeu se vérifient automatiquement** à la sélection.
@@ -10,6 +12,8 @@ Depuis la console du hub, deux onglets font tout : **Organiser un tournoi** (pr�
 4. Chaque joueur **appuie sur START** : sa partie se fige sur la ligne de départ et son pseudo passe **👍 Ready** dans votre console.
 5. **Lancer le challenge** : décompte **5-4-3-2-1 dans le jeu** sur toutes les bornes, départ simultané à la seconde près.
 6. À la fin : chaque borne affiche le **résultat et le rang du joueur**, le jeu se ferme proprement, le podium est archivé — et visible d'un clic dans l'historique.
+
+![L'onglet Tournoi en cours : l'objectif, le compte à rebours, l'état de chaque borne et le classement des joueurs en direct](img/hub-tournoi-en-cours.png)
 
 ## Les quatre types de défis
 

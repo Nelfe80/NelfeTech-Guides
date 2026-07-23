@@ -12,11 +12,15 @@ The Fleet Hub supervises your RetroBat cabinets, identifies players, drives tour
 
 In **My venue**, the ✏️ pencil next to a cabinet's name **renames** it ("Bar bartop", "Cockpit"…) — the name is immediate and kept. The **Quit the game** button cleanly closes the running game, whether it runs under RetroArch **or** a standalone emulator (MAME, PCSX2…).
 
+![The venue console (http://localhost:12400): live leaderboard, tournament in progress, and the full navigation — My venue, Players, Organize a tournament, My screen feed, Settings](img/hub-leaderboard.png)
+
 ## Player identification
 
 - **Cabinet QR**: enable `CabinetBadgeOverlay` in the cabinet's APIExpose configuration — the check-in QR and cabinet number appear at the bottom-right of the screen, and disappear while a player is checked in. A printable **sticker sheet** exists too.
 - The player **scans the cabinet's QR with their phone** (or types the cabinet number) and enters their player code. Re-scan = leaving.
 - Create badges at the desk via the players page — anonymous identities, no personal data.
+
+![The Players page: counters (registered, in game, linked accounts), email invitation, and the venue's player ranking](img/hub-joueurs.png)
 
 ## Venue screens
 

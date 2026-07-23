@@ -12,11 +12,15 @@ Le Fleet Hub supervise vos bornes RetroBat, identifie les joueurs, anime tournoi
 
 Dans **Ma salle**, le crayon ✏️ à côté du nom d'une borne la **renomme** (« Bartop bar », « Cockpit »…) — le nom est immédiat et conservé. Le bouton **Quitter le jeu** ferme proprement le jeu en cours, qu'il tourne sous RetroArch **ou** un émulateur autonome (MAME, PCSX2…).
 
+![La console de la salle (http://localhost:12400) : leaderboard en direct, tournoi en cours, et la navigation complète — Ma salle, Joueurs, Organiser un tournoi, Mon flux screen, Paramètres](img/hub-leaderboard.png)
+
 ## Identification des joueurs
 
 - **QR de borne** : activez `CabinetBadgeOverlay` dans la configuration APIExpose de la borne — le QR d'identification et le numéro s'affichent en bas à droite de l'écran, et disparaissent pendant qu'un joueur est connecté. Une planche de **stickers** imprimables existe aussi.
 - Le joueur **scanne le QR de la borne avec son téléphone** (ou tape le numéro de la borne) et entre son code joueur. Re-scan = départ.
 - Créez les badges au comptoir via la page joueurs — identités anonymes, aucune donnée personnelle.
+
+![La page Joueurs : compteurs (inscrits, en jeu, comptes liés), invitation par email, et le classement des joueurs de la salle](img/hub-joueurs.png)
 
 ## Écrans de la salle
 

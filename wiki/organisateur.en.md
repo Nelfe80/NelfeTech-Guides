@@ -2,6 +2,8 @@
 
 From the hub console, two tabs do everything: **Organize a tournament** (prepare the challenge) and **Live tournament** (open it, start it, follow it). One golden rule: test everything **before** the event.
 
+![The Organize a tournament tab: pick the cabinet, system and game (signals are checked on selection), then the bracket that builds itself as you tick players](img/hub-organiser.png)
+
 ## A challenge, start to finish, in 60 seconds
 
 1. **Organize**: reference cabinet → **system → game** (RetroAchievements-compatible versions are flagged 🏆 and prioritized; your 5 most recent games relaunch in one click). The game's **signals are checked automatically** on selection.
@@ -10,6 +12,8 @@ From the hub console, two tabs do everything: **Organize a tournament** (prepare
 4. Each player **presses START**: their run freezes on the starting line and their nickname turns **👍 Ready** in your console.
 5. **Start the challenge**: a **5-4-3-2-1 countdown inside the game** on every cabinet, simultaneous start to the second.
 6. At the end: every cabinet shows the **result and the player's rank**, the game closes cleanly, the podium is archived — one click away in the history.
+
+![The Live tournament tab: the objective, the countdown, each cabinet's state, and the live player ranking](img/hub-tournoi-en-cours.png)
 
 ## The four challenge types
 
