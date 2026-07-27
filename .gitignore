@@ -1,0 +1,9 @@
+# MkDocs build output — deployed via the gh-pages branch, not tracked on main.
+/site/
+
+# Python / MkDocs tooling
+__pycache__/
+*.pyc
+.venv/
+venv/
+.cache/
