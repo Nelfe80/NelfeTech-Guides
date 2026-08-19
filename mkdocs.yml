@@ -8,7 +8,7 @@ edit_uri: ""
 
 theme:
   name: material
-  logo: assets/brand/nelfetech.svg
+  logo: assets/brand/nelfetech-white.svg
   favicon: assets/brand/favicon.svg
   language: fr
   features:
