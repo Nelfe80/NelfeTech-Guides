@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Guides pas à pas par profil — joueurs, streamers, salles d'arcade, organisateurs de tournois, assembleurs de bornes.">
+        <meta name="description" content="Guides pas à pas par profil - joueurs, streamers, salles d'arcade, organisateurs de tournois, assembleurs de bornes.">
       
       
       
@@ -31,7 +31,7 @@
     
     
       
-        <title>Gestionnaire de salle - NelfeTech — Guides</title>
+        <title>Gestionnaire de salle - NelfeTech - Guides</title>
       
     
     
@@ -100,7 +100,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="En-tête">
-    <a href=".." title="NelfeTech — Guides" class="md-header__button md-logo" aria-label="NelfeTech — Guides" data-md-component="logo">
+    <a href=".." title="NelfeTech - Guides" class="md-header__button md-logo" aria-label="NelfeTech - Guides" data-md-component="logo">
       
   <img src="../assets/brand/nelfetech-white.svg" alt="logo">
 
@@ -113,7 +113,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            NelfeTech — Guides
+            NelfeTech - Guides
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -261,12 +261,12 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="NelfeTech — Guides" class="md-nav__button md-logo" aria-label="NelfeTech — Guides" data-md-component="logo">
+    <a href=".." title="NelfeTech - Guides" class="md-nav__button md-logo" aria-label="NelfeTech - Guides" data-md-component="logo">
       
   <img src="../assets/brand/nelfetech-white.svg" alt="logo">
 
     </a>
-    NelfeTech — Guides
+    NelfeTech - Guides
   </label>
   
     <div class="md-nav__source">
@@ -494,7 +494,7 @@
   <a href="#mon-flux-screen-ecrans-regie-video-et-stream" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Mon flux screen — écrans, régie vidéo et stream
+        Mon flux screen - écrans, régie vidéo et stream
       
     </span>
   </a>
@@ -670,7 +670,7 @@
   <a href="#mon-flux-screen-ecrans-regie-video-et-stream" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Mon flux screen — écrans, régie vidéo et stream
+        Mon flux screen - écrans, régie vidéo et stream
       
     </span>
   </a>
@@ -739,51 +739,51 @@
 
 
 <h1 id="gestionnaire-de-salle">Gestionnaire de salle</h1>
-<p>Le Fleet Hub supervise vos bornes RetroBat, identifie les joueurs, anime tournois et écrans. <strong>Offline-first</strong> : le hub écoute les bornes, il ne les commande pas — sans réseau ni hub, chaque borne continue de fonctionner, et la licence n'éteint jamais une borne.</p>
+<p>Le Fleet Hub supervise vos bornes RetroBat, identifie les joueurs, anime tournois et écrans. <strong>Offline-first</strong> : le hub écoute les bornes, il ne les commande pas. Sans réseau ni hub, chaque borne continue de fonctionner, et la licence n'éteint jamais une borne.</p>
 <h2 id="installer">Installer</h2>
 <ol>
-<li><strong>Achetez la licence</strong> adaptée sur <a href="https://nelfetech.com/salles.html">nelfetech.com/salles</a> — la licence se compte <strong>par borne équipée</strong>, hub inclus.</li>
-<li><strong>Installez le hub</strong> sur une machine du réseau local de la salle (le PC du comptoir convient très bien) : dézippez la release — comme APIExpose, tout tient dans <strong>un seul exécutable à la racine</strong>, <code>RetroBat.Hub.exe</code>, avec son dossier <code>wwwroot</code> à côté.</li>
-<li><strong>Double-cliquez <code>RetroBat.Hub.exe</code></strong>, puis ouvrez <strong>http://localhost:12400</strong> dans un navigateur : c'est la console de la salle (Ma salle, Joueurs, tournois, leaderboard, Paramètres). Toute la configuration et l'état de la salle vivent à côté de l'exe (<code>appsettings.json</code>, dossier <code>state\</code> — sauvegardez ce dossier, il contient vos scores, votre licence et vos clés). L'installeur Windows optionnel ajoute le démarrage automatique avec la session.</li>
+<li><strong>Achetez la licence</strong> adaptée sur <a href="https://nelfetech.com/salles.html">nelfetech.com/salles</a> - la licence se compte <strong>par borne équipée</strong>, hub inclus.</li>
+<li><strong>Installez le hub</strong> sur une machine du réseau local de la salle (le PC du comptoir convient très bien) : dézippez la release - comme APIExpose, tout tient dans <strong>un seul exécutable à la racine</strong>, <code>RetroBat.Hub.exe</code>, avec son dossier <code>wwwroot</code> à côté.</li>
+<li><strong>Double-cliquez <code>RetroBat.Hub.exe</code></strong>, puis ouvrez <strong>http://localhost:12400</strong> dans un navigateur : c'est la console de la salle (Ma salle, Joueurs, tournois, leaderboard, Paramètres). Toute la configuration et l'état de la salle vivent à côté de l'exe (<code>appsettings.json</code>, dossier <code>state\</code> - sauvegardez ce dossier, il contient vos scores, votre licence et vos clés). L'installeur Windows optionnel ajoute le démarrage automatique avec la session.</li>
 <li><strong>Activez la clé</strong> dans Paramètres (première saisie = activation ; fonctionne ensuite 14 jours sans internet).</li>
 <li><strong>Enrôlez vos bornes</strong> : bouton « 🔍 Rechercher des bornes » dans Paramètres (le hub scanne le réseau local), ou saisie de l'adresse <code>http://IP-de-la-borne:12345</code>. Redémarrez le hub pour les connecter.</li>
 </ol>
-<p>Dans <strong>Ma salle</strong>, le crayon ✏️ à côté du nom d'une borne la <strong>renomme</strong> (« Bartop bar », « Cockpit »…) — le nom est immédiat et conservé. Le bouton <strong>Quitter le jeu</strong> ferme proprement le jeu en cours, qu'il tourne sous RetroArch <strong>ou</strong> un émulateur autonome (MAME, PCSX2…).</p>
-<p><img alt="La console de la salle (http://localhost:12400) : leaderboard en direct, tournoi en cours, et la navigation complète — Ma salle, Joueurs, Organiser un tournoi, Mon flux screen, Paramètres" src="../img/hub-leaderboard.png" /></p>
+<p>Dans <strong>Ma salle</strong>, le crayon ✏️ à côté du nom d'une borne la <strong>renomme</strong> (« Bartop bar », « Cockpit »…) - le nom est immédiat et conservé. Le bouton <strong>Quitter le jeu</strong> ferme proprement le jeu en cours, qu'il tourne sous RetroArch <strong>ou</strong> un émulateur autonome (MAME, PCSX2…).</p>
+<p><img alt="La console de la salle (http://localhost:12400) : leaderboard en direct, tournoi en cours, et la navigation complète - Ma salle, Joueurs, Organiser un tournoi, Mon flux screen, Paramètres" src="../img/hub-leaderboard.png" /></p>
 <h2 id="identification-des-joueurs">Identification des joueurs</h2>
 <ul>
-<li><strong>QR de borne</strong> : activez <code>CabinetBadgeOverlay</code> dans la configuration APIExpose de la borne — le QR d'identification et le numéro s'affichent en bas à droite de l'écran, et disparaissent pendant qu'un joueur est connecté. Une planche de <strong>stickers</strong> imprimables existe aussi.</li>
+<li><strong>QR de borne</strong> : activez <code>CabinetBadgeOverlay</code> dans la configuration APIExpose de la borne - le QR d'identification et le numéro s'affichent en bas à droite de l'écran, et disparaissent pendant qu'un joueur est connecté. Une planche de <strong>stickers</strong> imprimables existe aussi.</li>
 <li>Le joueur <strong>scanne le QR de la borne avec son téléphone</strong> (ou tape le numéro de la borne) et entre son code joueur. Re-scan = départ.</li>
-<li>Créez les badges au comptoir via la page joueurs — identités anonymes, aucune donnée personnelle.</li>
+<li>Créez les badges au comptoir via la page joueurs - identités anonymes, aucune donnée personnelle.</li>
 </ul>
 <p><img alt="La page Joueurs : compteurs (inscrits, en jeu, comptes liés), invitation par email, et le classement des joueurs de la salle" src="../img/hub-joueurs.png" /></p>
 <h2 id="ecrans-de-la-salle">Écrans de la salle</h2>
-<p>Sur chaque affichage physique, ouvrez <code>screen.html?name=ecran-bar</code> (un nom par écran). Depuis la console, vous choisissez ce que <strong>chaque</strong> écran montre : leaderboard, écran tournoi, mosaïque de flotte… Un écran <strong>garde son contenu</strong> — podium compris — tant que vous ne le changez pas.</p>
+<p>Sur chaque affichage physique, ouvrez <code>screen.html?name=ecran-bar</code> (un nom par écran). Depuis la console, vous choisissez ce que <strong>chaque</strong> écran montre : leaderboard, écran tournoi, mosaïque de flotte… Un écran <strong>garde son contenu</strong> - podium compris - tant que vous ne le changez pas.</p>
 <div class="admonition tip">
 <p class="admonition-title">Annoncer un joueur</p>
-<p>Routez un écran vers la <strong>carte publique</strong> d'un joueur (<code>…/retrocreator/card/SonPseudo</code>) : avatar, palmarès et top 3 s'affichent en grand — parfait pour présenter un champion ou inviter un joueur à rejoindre une borne.</p>
+<p>Routez un écran vers la <strong>carte publique</strong> d'un joueur (<code>…/retrocreator/card/SonPseudo</code>) : avatar, palmarès et top 3 s'affichent en grand - parfait pour présenter un champion ou inviter un joueur à rejoindre une borne.</p>
 </div>
-<h2 id="mon-flux-screen-ecrans-regie-video-et-stream">Mon flux screen — écrans, régie vidéo et stream</h2>
+<h2 id="mon-flux-screen-ecrans-regie-video-et-stream">Mon flux screen - écrans, régie vidéo et stream</h2>
 <p>L'onglet <strong>Mon flux screen</strong> de la console pilote tout l'affichage et le direct de la salle.</p>
-<p><strong>Appairer un écran.</strong> Sur une smart TV ou un mini-PC, ouvrez <code>http://&lt;hub&gt;:12400/screen.html</code> : l'écran affiche un <strong>code à 6 chiffres</strong>. Saisissez-le dans l'onglet, nommez l'écran (« TV entrée ») — c'est mémorisé, même après un redémarrage de la TV. L'écran branché directement sur le PC du hub s'affiche en un clic (« Afficher ici »), sans code.</p>
-<p><strong>Choisir le contenu.</strong> Par écran : une vue fixe ou la rotation des vues — <strong>Leaderboard live</strong> (les rangs glissent quand un joueur en double un autre, les scores tournent comme un compteur), <strong>Mur des records</strong>, <strong>Événements</strong>, <strong>Parties en cours</strong>. Pour le leaderboard, choisissez : salle en continu, challenge en cours, ou automatique. La <strong>régie manuelle</strong> force une vue sur tous les écrans d'un coup (moment fort), puis « Reprendre le programme ».</p>
-<p><strong>Les parties en direct sur les écrans.</strong> La régie vidéo diffuse le jeu des bornes sur vos écrans en moins d'une seconde (borne choisie, rotation, ou bascule automatique en tournoi). Une borne <strong>libre</strong> est diffusable par défaut ; une borne <strong>occupée</strong> ne passe à l'écran que si le joueur l'a <strong>autorisé dans son app</strong> — c'est sa règle, pas la vôtre.</p>
+<p><strong>Appairer un écran.</strong> Sur une smart TV ou un mini-PC, ouvrez <code>http://&lt;hub&gt;:12400/screen.html</code> : l'écran affiche un <strong>code à 6 chiffres</strong>. Saisissez-le dans l'onglet, nommez l'écran (« TV entrée ») - c'est mémorisé, même après un redémarrage de la TV. L'écran branché directement sur le PC du hub s'affiche en un clic (« Afficher ici »), sans code.</p>
+<p><strong>Choisir le contenu.</strong> Par écran : une vue fixe ou la rotation des vues - <strong>Leaderboard live</strong> (les rangs glissent quand un joueur en double un autre, les scores tournent comme un compteur), <strong>Mur des records</strong>, <strong>Événements</strong>, <strong>Parties en cours</strong>. Pour le leaderboard, choisissez : salle en continu, challenge en cours, ou automatique. La <strong>régie manuelle</strong> force une vue sur tous les écrans d'un coup (moment fort), puis « Reprendre le programme ».</p>
+<p><strong>Les parties en direct sur les écrans.</strong> La régie vidéo diffuse le jeu des bornes sur vos écrans en moins d'une seconde (borne choisie, rotation, ou bascule automatique en tournoi). Une borne <strong>libre</strong> est diffusable par défaut ; une borne <strong>occupée</strong> ne passe à l'écran que si le joueur l'a <strong>autorisé dans son app</strong> - c'est sa règle, pas la vôtre.</p>
 <p><strong>Le stream de la salle.</strong> Collez la clé de stream Twitch de la salle (conservée chiffrée), appuyez sur « Démarrer la régie » : la composition (parties, classements, habillage) part en direct sur votre chaîne. L'<strong>habillage</strong> est automatique et se règle en trois cases : bandeau bas au nom de la salle, logo de la salle (à charger dans Paramètres, à côté de l'adresse), cartouche par borne (joueur, jeu et son logo, événement en cours).</p>
 <h2 id="sponsoring">Sponsoring</h2>
-<p>Déposez vos images et vidéos de pub dans le dossier <code>sponsors</code> (à côté du hub), ou ajoutez un lien YouTube / une chaîne Twitch. Chaque campagne se règle dans <strong>Mon flux screen</strong> : activée, dates de début/fin, fréquence de passage, durée. Quand une campagne est due, <strong>tous les écrans la passent en même temps</strong>, en fondu par-dessus leur contenu — de la visibilité vendable à vos partenaires.</p>
+<p>Déposez vos images et vidéos de pub dans le dossier <code>sponsors</code> (à côté du hub), ou ajoutez un lien YouTube / une chaîne Twitch. Chaque campagne se règle dans <strong>Mon flux screen</strong> : activée, dates de début/fin, fréquence de passage, durée. Quand une campagne est due, <strong>tous les écrans la passent en même temps</strong>, en fondu par-dessus leur contenu - de la visibilité vendable à vos partenaires.</p>
 <h2 id="classements-en-ligne-optionnel">Classements en ligne (optionnel)</h2>
-<p>Votre salle peut rejoindre les classements publics : le hub signe chaque lot de scores (clé propre à la salle) et les pousse quand internet est là — jamais l'inverse : le jeu ne dépend de rien. L'enrôlement se fait avec la clé publique du hub (visible dans la console) ; les joueurs badgés retrouvent alors leurs marques « salle vérifiée » sur leur compte en ligne.</p>
-<p><strong>Renseignez la fiche de votre salle</strong> (ville, région, pays, enseigne) à l'enrôlement : c'est ce qui place vos joueurs dans les classements à chaque échelle — champions de la salle, de la ville, de l'enseigne, de la région, du pays et du monde.</p>
+<p>Votre salle peut rejoindre les classements publics : le hub signe chaque lot de scores (clé propre à la salle) et les pousse quand internet est là. Le jeu, lui, ne dépend de rien. L'enrôlement se fait avec la clé publique du hub (visible dans la console) ; les joueurs badgés retrouvent alors leurs marques « salle vérifiée » sur leur compte en ligne.</p>
+<p><strong>Renseignez la fiche de votre salle</strong> (ville, région, pays, enseigne) à l'enrôlement : c'est ce qui place vos joueurs dans les classements à chaque échelle - champions de la salle, de la ville, de l'enseigne, de la région, du pays et du monde.</p>
 <h2 id="roles-et-moderation">Rôles et modération</h2>
 <p>Sur la plateforme en ligne, une salle peut déléguer des <strong>rôles</strong> cloisonnés à des comptes NelfeTech :</p>
 <ul>
-<li><strong>propriétaire</strong> — tous les droits sur la salle ;</li>
-<li><strong>modérateur</strong> — peut <strong>masquer un pseudo</strong> inapproprié sur les classements publics (il s'affiche alors <code>##;-)##</code>) ;</li>
-<li><strong>organisateur</strong> — <strong>annonce des événements</strong> aux joueurs qui suivent la salle (jamais de commande vers les bornes).</li>
+<li><strong>propriétaire</strong> - tous les droits sur la salle ;</li>
+<li><strong>modérateur</strong> - peut <strong>masquer un pseudo</strong> inapproprié sur les classements publics (il s'affiche alors <code>##;-)##</code>) ;</li>
+<li><strong>organisateur</strong> - <strong>annonce des événements</strong> aux joueurs qui suivent la salle (jamais de commande vers les bornes).</li>
 </ul>
 <p>Les outils correspondants apparaissent dans l'onglet <strong>Config</strong> du compte concerné. (Attribution des rôles côté plateforme.)</p>
 <h2 id="tournois">Tournois</h2>
-<p>Voir le <a href="../organisateur/">guide organisateur</a> — et avant tout événement, la règle d'or : <strong>vérifier les signaux du jeu, puis manche de test</strong>.</p>
+<p>Voir le <a href="../organisateur/">guide organisateur</a> - et avant tout événement, la règle d'or : <strong>vérifier les signaux du jeu, puis manche de test</strong>.</p>
 
 
 
