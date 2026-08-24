@@ -1,5 +1,5 @@
-site_name: NelfeTech — Guides
-site_description: Guides pas à pas par profil — joueurs, streamers, salles d'arcade, organisateurs de tournois, assembleurs de bornes.
+site_name: NelfeTech - Guides
+site_description: Guides pas à pas par profil - joueurs, streamers, salles d'arcade, organisateurs de tournois, assembleurs de bornes.
 site_url: https://nelfe80.github.io/NelfeTech-Guides/
 repo_url: https://github.com/Nelfe80/NelfeTech-Guides
 repo_name: Nelfe80/NelfeTech-Guides
@@ -50,7 +50,7 @@ plugins:
         - locale: en
           name: English
           build: true
-          site_name: NelfeTech — Guides
+          site_name: NelfeTech - Guides
           nav_translations:
             Accueil: Home
             Joueur en salle: Player in a venue
