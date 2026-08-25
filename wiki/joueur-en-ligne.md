@@ -9,16 +9,12 @@ Sur l'espace compte de la plateforme : entrez votre **email**, ouvrez le **lien 
 - **Twitch** peut se lier au compte (« Continuer avec Twitch ») - pratique si vous participez aux Live Contests, mais jamais obligatoire.
 - **RetroAchievements** pourra se lier en liaison vérifiée (préparation des classements domicile).
 
-## Rattacher ses scores de salle
+## Vos scores de salle
 
-Votre badge de salle porte un **code de secours** : c'est votre code de réclamation.
+Il n'y a rien à rattacher. C'est **le même compte** en salle et en ligne : le lien de connexion que vous ouvrez la première fois devant une borne ouvre ce compte-là. Vos scores (provenance « salle vérifiée ») arrivent sur votre profil d'eux-mêmes, visite après visite et salle après salle.
 
-1. Connectez-vous à votre compte.
-2. Entrez le code de secours de votre badge.
-3. Vos scores de cette salle (provenance « salle vérifiée ») rejoignent votre profil - visite après visite, salle après salle.
-
-!!! tip "Plusieurs salles ?"
-    Réclamez chaque badge : tous vos identifiants anonymes convergent vers le même compte.
+!!! note "Un badge anonyme à rattacher"
+    Une salle peut remettre un **badge anonyme** à qui ne veut pas donner d'email. Ces scores-là vivent d'abord sans compte : la salle vous donne un code, et le saisir depuis votre compte les y fait entrer. C'est le seul cas où une réclamation existe encore.
 
 ## Classements
 

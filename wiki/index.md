@@ -4,7 +4,7 @@ Chaque guide décrit un parcours complet, pas à pas. Choisissez le vôtre :
 
 <div class="grid cards" markdown>
 
-- 🕹️ **[Joueur en salle](joueur-salle.md)** - badge, identification sur une borne, records d'une visite à l'autre.
+- 🕹️ **[Joueur en salle](joueur-salle.md)** - s'identifier sur une borne, jouer, retrouver ses records d'une visite à l'autre.
 - 🏠 **[Joueur en ligne / à domicile](joueur-en-ligne.md)** - compte NelfeTech, rattacher ses scores de salle, classements.
 - 🎥 **[Streamer](streamer.md)** - overlays pilotés par le jeu et Live Contests avec vos viewers.
 - 🏢 **[Gestionnaire de salle](gestionnaire.md)** - installer le Fleet Hub, licences, bornes, écrans.

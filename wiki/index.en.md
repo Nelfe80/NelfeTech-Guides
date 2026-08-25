@@ -4,7 +4,7 @@ Each guide walks one journey end to end. Pick yours:
 
 <div class="grid cards" markdown>
 
-- 🕹️ **[Player in a venue](joueur-salle.md)** - badge, checking in on a cabinet, records visit after visit.
+- 🕹️ **[Player in a venue](joueur-salle.md)** - checking in on a cabinet, playing, finding your records visit after visit.
 - 🏠 **[Player online / at home](joueur-en-ligne.md)** - NelfeTech account, claiming your venue scores, rankings.
 - 🎥 **[Streamer](streamer.md)** - overlays driven by the game and Live Contests with your viewers.
 - 🏢 **[Venue manager](gestionnaire.md)** - installing the Fleet Hub, licenses, cabinets, screens.

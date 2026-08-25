@@ -9,16 +9,12 @@ On the platform's account area: enter your **email**, open the **login link** yo
 - **Twitch** can be linked to the account ("Continue with Twitch") - handy if you join Live Contests, never mandatory.
 - **RetroAchievements** will be linkable as a verified link (preparing home rankings).
 
-## Claim your venue scores
+## Your venue scores
 
-Your venue badge carries a **recovery code**: it is your claim code.
+There is nothing to claim. It is **the same account** in the venue and online: the sign-in link you open the first time, standing at a cabinet, opens that very account. Your scores ("verified venue" provenance) reach your profile on their own, visit after visit and venue after venue.
 
-1. Log into your account.
-2. Enter your badge's recovery code.
-3. Your scores from that venue ("verified venue" provenance) join your profile - visit after visit, venue after venue.
-
-!!! tip "Several venues?"
-    Claim each badge: all your anonymous identifiers converge into the same account.
+!!! note "An anonymous badge to attach"
+    A venue can hand an **anonymous badge** to anyone who would rather not give an email. Those scores live without an account at first: the venue gives you a code, and entering it from your account brings them in. It is the only case where a claim still exists.
 
 ## Rankings
 

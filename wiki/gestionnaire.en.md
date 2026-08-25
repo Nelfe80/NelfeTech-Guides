@@ -17,8 +17,8 @@ In **My venue**, the ✏️ pencil next to a cabinet's name **renames** it ("Bar
 ## Player identification
 
 - **Cabinet QR**: enable `CabinetBadgeOverlay` in the cabinet's APIExpose configuration - the check-in QR and cabinet number appear at the bottom-right of the screen, and disappear while a player is checked in. A printable **sticker sheet** exists too.
-- The player **scans the cabinet's QR with their phone** (or types the cabinet number) and enters their player code. Re-scan = leaving.
-- Create badges at the desk via the players page - anonymous identities, no personal data.
+- The player **scans the cabinet's QR with their phone**, enters their email the very first time, then confirms with one tap. Re-scan = leaving.
+- There is nothing to create at the desk: players sign themselves up at the cabinet. The Players page is there to **invite** by email, and keeps an **anonymous badges** fallback for anyone who refuses to give one.
 
 ![The Players page: counters (registered, in game, linked accounts), email invitation, and the venue's player ranking](img/hub-joueurs.png)
 

@@ -1,21 +1,20 @@
 # Joueur en salle
 
-Vous êtes dans une salle équipée du Fleet Hub. Votre identité est **anonyme** : un identifiant, un pseudo et un code de secours. Aucune donnée personnelle n'y figure, ni sur la borne, ni sur le badge.
-
-## Créer son badge (une fois)
-
-Au comptoir ou sur la page joueurs de la salle, choisissez un pseudo. Vous recevez :
-
-- un **badge QR** (imprimable ou à garder sur votre téléphone) ;
-- un **code de secours** - gardez-le précieusement : c'est aussi votre code de réclamation pour rattacher plus tard vos scores à un [compte en ligne](joueur-en-ligne.md).
+Vous êtes dans une salle équipée du Fleet Hub. Votre téléphone vous identifie sur les bornes, et vos scores vous suivent d'une visite à l'autre. Rien à installer, rien à retenir : aucune donnée personnelle n'apparaît sur la borne ni dans les classements, et votre email ne sert qu'à vous reconnaître.
 
 ## S'identifier sur une borne
 
-Chaque borne affiche un **QR et son numéro** en bas à droite de l'écran (ou sur un sticker) :
+Chaque borne affiche un **QR** en bas à droite de son écran (ou sur un sticker).
 
-1. **Scannez le QR de la borne** avec votre téléphone - ou ouvrez la page d'identification de la salle et tapez le numéro de la borne.
-2. Entrez votre code joueur.
-3. Un message « Bienvenue ! » s'affiche sur la borne : vos scores comptent pour vous, et le QR de la borne disparaît le temps de votre session.
+1. **Scannez le QR de la borne** avec votre téléphone.
+2. **Première fois ?** Entrez votre email : un lien de connexion arrive. Ouvrez-le depuis ce téléphone, vous revenez ici tout seul. C'est la seule fois où vous tapez quelque chose - il n'y a ni mot de passe, ni code à retenir.
+3. Touchez **« 🎮 Me connecter à cette borne »**.
+4. Un message « Bienvenue ! » s'affiche sur la borne : vos scores comptent pour vous, et le QR disparaît le temps de votre session.
+
+Les visites suivantes se résument aux étapes 1 et 3 : votre téléphone vous reconnaît, il ne reste qu'à confirmer la borne.
+
+!!! note "Sans email"
+    Une salle peut aussi remettre un **badge anonyme** à qui ne souhaite pas donner d'email. Elle vous donne alors un code : il rattache ces scores à un [compte en ligne](joueur-en-ligne.md) le jour où vous en ouvrez un.
 
 ## Choisir un jeu depuis votre téléphone
 
@@ -53,7 +52,7 @@ Le même geste vous déconnecte : re-scannez, ou touchez « Je pars - me déconn
 
 ## Retrouver ses records
 
-La page profil de la salle (code de secours ou badge) liste vos meilleurs scores par jeu, d'une visite à l'autre. Si la salle participe aux classements en ligne, vos marques y apparaissent avec la provenance « salle vérifiée ».
+Votre carte joueur, sur votre téléphone, liste vos meilleurs scores par jeu, d'une visite à l'autre et d'une salle à l'autre : c'est le même compte partout, vous n'avez rien à rattacher. Si la salle participe aux classements en ligne, vos marques y apparaissent avec la provenance « salle vérifiée ».
 
 ## Challenges et tournois
 

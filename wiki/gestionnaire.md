@@ -17,8 +17,8 @@ Dans **Ma salle**, le crayon ✏️ à côté du nom d'une borne la **renomme** 
 ## Identification des joueurs
 
 - **QR de borne** : activez `CabinetBadgeOverlay` dans la configuration APIExpose de la borne - le QR d'identification et le numéro s'affichent en bas à droite de l'écran, et disparaissent pendant qu'un joueur est connecté. Une planche de **stickers** imprimables existe aussi.
-- Le joueur **scanne le QR de la borne avec son téléphone** (ou tape le numéro de la borne) et entre son code joueur. Re-scan = départ.
-- Créez les badges au comptoir via la page joueurs - identités anonymes, aucune donnée personnelle.
+- Le joueur **scanne le QR de la borne avec son téléphone**, entre son email la toute première fois, puis confirme d'un tap. Re-scan = départ.
+- Vous n'avez rien à créer au comptoir : le joueur s'inscrit seul devant la borne. La page Joueurs sert à **inviter** par email, et garde un repli **badges anonymes** pour qui refuse d'en donner un.
 
 ![La page Joueurs : compteurs (inscrits, en jeu, comptes liés), invitation par email, et le classement des joueurs de la salle](img/hub-joueurs.png)
 

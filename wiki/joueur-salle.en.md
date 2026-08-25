@@ -1,21 +1,20 @@
 # Player in a venue
 
-You are in a venue equipped with the Fleet Hub. Your identity is **anonymous**: an identifier, a nickname and a recovery code. No personal data, neither on the cabinet nor on the badge.
-
-## Create your badge (once)
-
-At the desk or on the venue's players page, pick a nickname. You get:
-
-- a **QR badge** (printable or kept on your phone);
-- a **recovery code** - keep it safe: it is also your claim code to later attach your scores to an [online account](joueur-en-ligne.md).
+You are in a venue equipped with the Fleet Hub. Your phone checks you in on the cabinets, and your scores follow you from one visit to the next. Nothing to install, nothing to remember: no personal data appears on the cabinet or in the rankings, and your email only serves to recognise you.
 
 ## Check in on a cabinet
 
-Every cabinet shows a **QR and its number** at the bottom-right of its screen (or on a sticker):
+Every cabinet shows a **QR** at the bottom-right of its screen (or on a sticker).
 
-1. **Scan the cabinet's QR** with your phone - or open the venue's check-in page and type the cabinet number.
-2. Enter your player code.
-3. A "Welcome!" message appears on the cabinet: your scores now count for you, and the cabinet's QR disappears for the length of your session.
+1. **Scan the cabinet's QR** with your phone.
+2. **First time?** Enter your email: a sign-in link arrives. Open it from that phone and you come straight back here. It is the only time you type anything - there is no password, and no code to remember.
+3. Tap **"🎮 Check me in on this cabinet"**.
+4. A "Welcome!" message appears on the cabinet: your scores now count for you, and the QR disappears for the length of your session.
+
+On later visits only steps 1 and 3 remain: your phone recognises you, you just confirm the cabinet.
+
+!!! note "Without an email"
+    A venue can also hand an **anonymous badge** to anyone who would rather not give an email. It then gives you a code, which attaches those scores to an [online account](joueur-en-ligne.md) the day you open one.
 
 ## Pick a game from your phone
 
@@ -53,7 +52,7 @@ The same gesture signs you out: re-scan, or tap "I'm leaving - sign out" on your
 
 ## Finding your records
 
-The venue's profile page (recovery code or badge) lists your best scores per game, visit after visit. If the venue takes part in the online rankings, your marks appear there with the "verified venue" provenance.
+Your player card, on your phone, lists your best scores per game - visit after visit and venue after venue. It is the same account everywhere, so there is nothing to attach. If the venue takes part in the online rankings, your marks appear there with the "verified venue" provenance.
 
 ## Challenges and tournaments
 
