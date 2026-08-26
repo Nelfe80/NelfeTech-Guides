@@ -22,7 +22,7 @@ Les classements publics affichent les meilleures marques par joueur et par jeu, 
 
 ## Notifications
 
-Activez les **notifications** depuis votre compte (onglet Config) : vous êtes prévenu - par **navigateur/téléphone ET par email** - quand un contest s'ouvre, quand un tournoi se prépare dans une salle que vous suivez, ou quand quelqu'un **bat votre record**. Ajoutez la page compte à votre écran d'accueil pour la recevoir comme une application.
+Activez les **notifications** depuis votre compte (onglet Config) : vous êtes prévenu - par **navigateur/téléphone ET par email** - quand un défi s'ouvre, quand un tournoi se prépare dans une salle que vous suivez, ou quand quelqu'un **bat votre record**. Ajoutez la page compte à votre écran d'accueil pour la recevoir comme une application.
 
 ## Vos données
 

@@ -47,7 +47,7 @@ Déposez vos images et vidéos de pub dans le dossier `sponsors` (à côté du h
 
 ## Classements en ligne (optionnel)
 
-Votre salle peut rejoindre les classements publics : le hub signe chaque lot de scores (clé propre à la salle) et les pousse quand internet est là. Le jeu, lui, ne dépend de rien. L'enrôlement se fait avec la clé publique du hub (visible dans la console) ; les joueurs badgés retrouvent alors leurs marques « salle vérifiée » sur leur compte en ligne.
+Votre salle peut rejoindre les classements publics : le hub signe chaque lot de scores (clé propre à la salle) et les pousse quand internet est là. Le jeu, lui, ne dépend de rien. L'enrôlement se fait avec la clé publique du hub (visible dans la console) ; les joueurs identifiés retrouvent alors leurs marques « salle vérifiée » sur leur compte en ligne.
 
 **Renseignez la fiche de votre salle** (ville, région, pays, enseigne) à l'enrôlement : c'est ce qui place vos joueurs dans les classements à chaque échelle - champions de la salle, de la ville, de l'enseigne, de la région, du pays et du monde.
 

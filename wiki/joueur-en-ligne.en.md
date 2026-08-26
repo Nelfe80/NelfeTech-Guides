@@ -22,7 +22,7 @@ Public rankings show the best marks per player and per game, with their provenan
 
 ## Notifications
 
-Turn on **notifications** from your account (Config tab): you're alerted - in the **browser/phone AND by email** - when a contest opens, when a tournament is being prepared at a venue you follow, or when someone **beats your record**. Add the account page to your home screen to receive them like an app.
+Turn on **notifications** from your account (Config tab): you're alerted - in the **browser/phone AND by email** - when a challenge opens, when a tournament is being prepared at a venue you follow, or when someone **beats your record**. Add the account page to your home screen to receive them like an app.
 
 ## Your data
 

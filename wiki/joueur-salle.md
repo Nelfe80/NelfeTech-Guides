@@ -52,7 +52,7 @@ Le même geste vous déconnecte : re-scannez, ou touchez « Je pars - me déconn
 
 ## Retrouver ses records
 
-Votre carte joueur, sur votre téléphone, liste vos meilleurs scores par jeu, d'une visite à l'autre et d'une salle à l'autre : c'est le même compte partout, vous n'avez rien à rattacher. Si la salle participe aux classements en ligne, vos marques y apparaissent avec la provenance « salle vérifiée ».
+Votre Gaming Player Card, sur votre téléphone, liste vos meilleurs scores par jeu, d'une visite à l'autre et d'une salle à l'autre : c'est le même compte partout, vous n'avez rien à rattacher. Si la salle participe aux classements en ligne, vos marques y apparaissent avec la provenance « salle vérifiée ».
 
 ## Challenges et tournois
 
@@ -63,7 +63,7 @@ Quand la salle lance un challenge, les bornes l'**annoncent en plein écran** : 
 3. Quand tout le monde est prêt, **5-4-3-2-1 dans le jeu** - départ simultané pour tous.
 4. À la fin, la borne affiche votre **rang et le vainqueur**, et le top 10 du jeu est à un tap sur votre téléphone.
 
-Votre **carte joueur suit tout en direct** sur votre téléphone : l'objectif, le décompte, le temps restant. Ajoutez-la à votre écran d'accueil et activez les **notifications** - vous saurez quand un contest s'ouvre, quand un tournoi se prépare, et quand quelqu'un **bat votre record** (« reviens le reprendre ! »).
+Votre **Gaming Player Card suit tout en direct** sur votre téléphone : l'objectif, le décompte, le temps restant. Ajoutez-la à votre écran d'accueil et activez les **notifications** - vous saurez quand un défi s'ouvre, quand un tournoi se prépare, et quand quelqu'un **bat votre record** (« reviens le reprendre ! »).
 
 Bon à savoir : un challenge joué sans véritable adversaire (moins de 2 joueurs ayant appuyé sur START) n'est **pas comptabilisé** - les trophées se méritent. En **session libre**, les joueurs se relaient sur les bornes réservées - chaque passage badgé compte pour son joueur.
 

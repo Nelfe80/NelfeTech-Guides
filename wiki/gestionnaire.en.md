@@ -47,7 +47,7 @@ Drop your ad images and videos in the `sponsors` folder (next to the hub), or ad
 
 ## Online rankings (optional)
 
-Your venue can join the public rankings: the hub signs every score batch (venue-specific key) and pushes them whenever internet is available. Gameplay itself depends on nothing. Enrollment uses the hub's public key (visible in the console); badged players then find their "verified venue" marks on their online account.
+Your venue can join the public rankings: the hub signs every score batch (venue-specific key) and pushes them whenever internet is available. Gameplay itself depends on nothing. Enrollment uses the hub's public key (visible in the console); checked-in players then find their "verified venue" marks on their online account.
 
 **Fill in your venue's profile** (city, region, country, chain) at enrollment: it is what places your players in the rankings at every scale - champions of the venue, the city, the chain, the region, the country and the world.
 
